@@ -13,6 +13,10 @@ internal class Program
         PrintArrayWithGeneric.ToPrint(inputDouble);
 
 
-        
+        int num1 = 10, num2 = 20;
+        Console.WriteLine("Before Swapping :" + "\n num1 = " + num1 + "\nnum2 = " + num2);
+        SwapTwoNum.Swap(ref num1, ref num2);
+        Console.WriteLine("Before Swapping :" + "\n num1 = " + num1 + "\nnum2 = " + num2);
+
     }
 }
