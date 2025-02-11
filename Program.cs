@@ -18,5 +18,12 @@ internal class Program
         SwapTwoNum.Swap(ref num1, ref num2);
         Console.WriteLine("Before Swapping :" + "\n num1 = " + num1 + "\nnum2 = " + num2);
 
+        //compare two types
+
+        CompareTwoTypes.ComapareTypes(10, 4.5);
+        CompareTwoTypes.ComapareTypes(12, 12.0);
+        CompareTwoTypes.ComapareTypes(23, 23.0);
+
+
     }
 }
