@@ -24,6 +24,19 @@ internal class Program
         CompareTwoTypes.ComapareTypes(12, 12.0);
         CompareTwoTypes.ComapareTypes(23, 23.0);
 
+        CompareTwoTypes.ComapareTypes(110, 4.5);
+        CompareTwoTypes.ComapareTypes(12, 132.0);
+        CompareTwoTypes.ComapareTypes(243, 23.0);
+
+        // find min of three
+        FindMinMaxUsingGenerics.FindMinOfThree(1, 3, 12);
+
+        FindMinMaxUsingGenerics.FindMaxOfThree(1, 3, 12);
+        FindMinMaxUsingGenerics.FindMaxOfThree(10, 5, 20);
+        FindMinMaxUsingGenerics.FindMaxOfThree(4.5, 9.8, 2.3);
+        FindMinMaxUsingGenerics.FindMaxOfThree("15", "30", "25");
+
+
 
     }
 }
