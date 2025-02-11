@@ -36,6 +36,9 @@ internal class Program
         FindMinMaxUsingGenerics.FindMaxOfThree(4.5, 9.8, 2.3);
         FindMinMaxUsingGenerics.FindMaxOfThree("15", "30", "25");
 
+        //calculator
+        CalculatorUsingGenerics.Calculator();
+
 
 
     }
