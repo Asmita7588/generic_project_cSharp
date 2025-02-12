@@ -71,6 +71,13 @@ internal class Program
         GenericSortedList genericSortedList = new GenericSortedList();
         genericSortedList.InsertInGenericSortedList();
 
+        //generic stack
+        GenericStack genericStack = new GenericStack();
+        genericStack.InsertInGenericStack();
+
+        //generic queue
+        GenericQueue queue = new GenericQueue();    
+        queue.InsertInGenericQueue();
 
 
     }
