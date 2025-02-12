@@ -59,6 +59,18 @@ internal class Program
         EnqueueDemo enqueueDemo = new EnqueueDemo();
         enqueueDemo.insertIntoQueue();
 
+        //Generic List
+        GenericList list = new GenericList();
+        list.DispayList();
+
+        //Generic Dictionary
+        GenericDictionary genericDictionary = new GenericDictionary();
+        genericDictionary.InsertInDictionary();
+
+        //Generic sorted List
+        GenericSortedList genericSortedList = new GenericSortedList();
+        genericSortedList.InsertInGenericSortedList();
+
 
 
     }
