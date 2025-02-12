@@ -50,5 +50,16 @@ internal class Program
         SortedListDemo sortedListDemo = new SortedListDemo();
         sortedListDemo.InsertInSortedList();
 
+        //Stack
+        InsertInStack stack = new InsertInStack();
+        stack.InsertEleInStack();
+
+        Console.WriteLine();
+        //Queue 
+        EnqueueDemo enqueueDemo = new EnqueueDemo();
+        enqueueDemo.insertIntoQueue();
+
+
+
     }
 }
