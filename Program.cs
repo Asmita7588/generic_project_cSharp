@@ -46,5 +46,9 @@ internal class Program
         HashTableKeyValue hashTableKeyValue = new HashTableKeyValue();
         hashTableKeyValue.InsertIntoHashTable();
 
+        //Soerted list
+        SortedListDemo sortedListDemo = new SortedListDemo();
+        sortedListDemo.InsertInSortedList();
+
     }
 }
