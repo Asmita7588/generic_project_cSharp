@@ -39,7 +39,12 @@ internal class Program
         //calculator
         CalculatorUsingGenerics.Calculator();
 
+        //ArrayList
+        NonGenericArrayList arrayList = new NonGenericArrayList();
+        arrayList.InsertInArrayList();
 
+        HashTableKeyValue hashTableKeyValue = new HashTableKeyValue();
+        hashTableKeyValue.InsertIntoHashTable();
 
     }
 }
