@@ -79,6 +79,13 @@ internal class Program
         GenericQueue queue = new GenericQueue();    
         queue.InsertInGenericQueue();
 
+        //time of excution
+        CalculateTimeOfExecution calculateTimeOfExecution = new CalculateTimeOfExecution();
+        calculateTimeOfExecution.StopWatchTime();
 
+        NumProgram numProgram = new NumProgram();
+        numProgram.FindNum();
+
+       
     }
 }
